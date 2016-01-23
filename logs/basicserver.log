@@ -1,4 +1,0 @@
-[2007-09-03 12:46:19] [BasicServer->start] Le serveur est démarré
-[2007-09-03 12:46:35] [BasicServer->timeout] Le serveur en a marre d'attendre
-[2007-09-03 12:46:35] [BasicServer->beforeClose] Le serveur va être arrêté...
-[2007-09-03 12:46:35] [BasicServer->close] Le serveur est arrêté.
