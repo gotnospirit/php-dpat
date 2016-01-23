@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<datagrid id="tableau_xml" title="Mon tableau XML">
+	<properties>
+		<scheme>
+			<string target="1">
+				<maxlen value="20" />
+				<nullable value="yes" />
+			</string>
+			<string target="2">
+				<maxlen value="20" />
+				<nullable value="yes" />
+			</string>
+			<string target="3">
+				<maxlen value="20" />
+				<nullable value="yes" />
+			</string>
+		</scheme>
+	</properties>
+	<datagridrow id="1">
+		<datagridcolumn id="1">Hello</datagridcolumn>
+		<datagridcolumn id="2">world</datagridcolumn>
+		<datagridcolumn id="3">!</datagridcolumn>
+	</datagridrow>
+	<datagridrow id="2">
+		<datagridcolumn id="1">Hi!</datagridcolumn>
+		<datagridcolumn id="2">&quot;my name is</datagridcolumn>
+		<datagridcolumn id="3">special character</datagridcolumn>
+	</datagridrow>
+</datagrid>

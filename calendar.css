@@ -1,0 +1,49 @@
+body div.calendar,
+body div.calendar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+body div.calendar {
+	margin: 10px;
+}
+
+body div.calendar {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+}
+
+body div.calendar table {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+body div.calendar table thead th {
+	padding: 2px 0;
+	width: 200px;
+	color: #fff;
+	background-color: #009191;
+}
+
+body div.calendar table.annual_view tbody td {
+	vertical-align: top;
+}
+
+body div.calendar table.annual_view tbody td ul li {
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+	clear: left;
+	line-height: 17px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+body div.calendar table.annual_view tbody td ul li span.day_number,
+body div.calendar table.daily_view tbody td span.hour_number {
+	font-size: 17px;
+	font-weight: bold;
+	display: block;
+	float: left;
+	margin-right: 0.5em;
+}

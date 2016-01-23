@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body div.datagrid {
+	margin: 10px;
+}
+
+body div.datagrid,
+body div.datagrid input,
+body div.datagrid textarea,
+body div.datagrid select
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+}
+
+body div.datagrid table {
+	border: 1px solid #999;
+	border-collapse: collapse;
+}
+
+body div.datagrid table th,
+body div.datagrid table td
+{ padding: 2px; }
+
+body div.datagrid input,
+body div.datagrid textarea,
+body div.datagrid select
+{
+	border: 1px solid #ccc;
+}
+
+body div.datagrid div.action_panel {
+/*	border: 1px solid red;	*/
+}
